@@ -1,0 +1,20 @@
+Example
+Input
+Code
+heights = [10, 3, 7, 4, 12, 2]
+Output
+Code
+[2, 1, 1, 1, 0, 0]
+Explanation
+Building 10 can see 3 and 7 (but not 12, since 12 is taller and blocks).
+
+Building 3 can see 7.
+
+Building 7 can see 4.
+
+Building 4 can see 12.
+
+Building 12 sees none.
+
+Building 2 sees none.
+
