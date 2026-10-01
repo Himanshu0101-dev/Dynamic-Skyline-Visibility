@@ -1,0 +1,19 @@
+# Test Case 1
+print(skyline_visibility([10, 3, 7, 4, 12, 2]))
+# Expected: [2, 1, 1, 1, 0, 0]
+
+# Test Case 2
+print(skyline_visibility([5, 4, 3, 2, 1]))
+# Expected: [1, 1, 1, 1, 0]
+
+# Test Case 3
+print(skyline_visibility([1, 2, 3, 4, 5]))
+# Expected: [1, 1, 1, 1, 0]
+
+# Test Case 4
+print(skyline_visibility([8, 8, 8, 8]))
+# Expected: [1, 1, 1, 0]
+
+# Test Case 5
+print(skyline_visibility([100]))
+# Expected: [0]
